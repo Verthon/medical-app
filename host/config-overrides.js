@@ -15,19 +15,19 @@ module.exports = function override(config, env) {
         remotes: {
           "@med-mfe/doctors": "doctors@http://localhost:3001/remoteEntry.js",
         },
-        shared: {
-          ...deps,
-          react: {
-            singleton: true,
-            eager: true,
-            requiredVersion: deps.react
-          },
-          "react-dom": {
-            singleton: true,
-            eager: true,
-            requiredVersion: deps["react-dom"],
-          },
-        },
+        // shared: {
+        //   ...deps,
+        //   react: {
+        //     singleton: true,
+        //     eager: true,
+        //     requiredVersion: deps.react
+        //   },
+        //   "react-dom": {
+        //     singleton: true,
+        //     eager: true,
+        //     requiredVersion: deps["react-dom"],
+        //   },
+        // },
       }),
     ]
   };

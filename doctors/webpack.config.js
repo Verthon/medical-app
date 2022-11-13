@@ -47,17 +47,17 @@ module.exports = {
       exposes: {
         "./App": "./src/App",
       },
-      shared: {
-        ...deps,
-        react: {
-          singleton: true,
-          requiredVersion: deps.react,
-        },
-        "react-dom": {
-          singleton: true,
-          requiredVersion: deps["react-dom"],
-        },
-      },
+      // shared: {
+      //   ...deps,
+      //   react: {
+      //     singleton: true,
+      //     requiredVersion: deps.react,
+      //   },
+      //   "react-dom": {
+      //     singleton: true,
+      //     requiredVersion: deps["react-dom"],
+      //   },
+      // },
     }),
     new HtmlWebPackPlugin({
       template: "./src/index.html",

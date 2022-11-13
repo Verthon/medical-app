@@ -11,6 +11,5 @@ const App = () => (
     <div>CSS: Tailwind</div>
   </div>
 );
-ReactDOM.render(<App />, document.getElementById("app"));
 
 export default App;
