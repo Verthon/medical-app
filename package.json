@@ -1,0 +1,24 @@
+{
+  "name": "medical-app",
+  "version": "1.0.0",
+  "description": "React Microfrontends POC - every app is React SPA Important part: the each app should be placed in the separated The application will be initially splited into 3 domains * doctors * appointments * diagnostics tests",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently --names \"HOST,DOCTORS\" -c \"bgYellow.black.bold,blue.bold,magenta.bold,green.bold\" \"cd host && npm start\" \"cd doctors && npm start\"",
+    "install": "cd host && npm i && cd ../doctors && npm i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Verthon/medical-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Verthon/medical-app/issues"
+  },
+  "homepage": "https://github.com/Verthon/medical-app#readme",
+  "dependencies": {
+    "concurrently": "^7.5.0"
+  }
+}
