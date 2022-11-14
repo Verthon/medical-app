@@ -14,6 +14,7 @@ module.exports = function override(config, env) {
         name: "shell",
         remotes: {
           "@med-mfe/doctors": "doctors@http://localhost:3001/remoteEntry.js",
+          "@med-mfe/diagnostics": "diagnostics@http://localhost:3001/remoteEntry.js"
         },
         // shared: {
         //   ...deps,
