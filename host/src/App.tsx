@@ -2,15 +2,13 @@ import * as React from "react";
 
 import { AppProviders } from "./appProviders/AppProviders";
 import { AppShell } from "./components/appShell/AppShell";
-import { ServiceCardsSection } from "./home/serviceCardsSection/ServiceCardsSection";
-import { DoctorsLoader } from "./microfrontends/DoctorsLoader";
+import { Routes } from "./routes/Routes";
 
 function App() {
 	return (
 		<AppProviders>
 			<AppShell>
-        <ServiceCardsSection />
-				<DoctorsLoader />
+        <Routes />
 			</AppShell>
 		</AppProviders>
 	);

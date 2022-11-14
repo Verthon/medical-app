@@ -1,6 +1,7 @@
 # medical-app
 
 React Microfrontends POC - every app is React SPA
+
 **Important part**: each app should be placed in the separated repository in order to work 100% independently
 In this repository for the sake of convenience - I'm using one repository with folders per remote
 
