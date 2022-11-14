@@ -7,6 +7,7 @@ export const ServiceCardsSection = () => {
 		<Grid>
 			<Grid.Col span={4}>
 				<ServiceCard path="/doctors" serviceName="Find Doctors" />
+				<ServiceCard path="/diagnostics-test" serviceName="Diagnostics Tests" />
 			</Grid.Col>
 		</Grid>
 	);

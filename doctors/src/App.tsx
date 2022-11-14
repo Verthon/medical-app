@@ -1,12 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { HomeView } from "./home/Home.view";
 
 import "./index.scss";
+import { AppProviders } from "./providers/appProviders/AppProviders";
+import { Routes } from "./routes/Routes";
 
 const App = () => (
-  <div className="mt-10 text-3xl mx-auto max-w-6xl">
-    <p>TODO implement content of Doctors MF here</p>
-  </div>
+	<AppProviders>
+		<HomeView />
+	</AppProviders>
 );
 
 export default App;
