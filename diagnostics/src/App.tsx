@@ -8,4 +8,5 @@ const App = () => (
     <h1>Diagnostics app</h1>
   </div>
 );
-ReactDOM.render(<App />, document.getElementById("app"));
+
+export default App
